@@ -5,6 +5,87 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.1.0 (2025-12-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* add support for configuring default squash and merge commit title and messages ([#3](https://github.com/gaima8-org/fork-terraform-github-repository/issues/3))
+* allow computed values in v4 branch protections
+* remove support for string list in branches variable
+* provider version requirements
+* add allow_auto_merge and bump minimum supported  provider version to v4.19.2
+* Only support latest versions of Terraform and Official GitHub Terraform Provider
+* Add 3.1 feature support.
+* Add support for v4 using v3 compatible branch protections
+* Add visibility parameter and deprecate private parameter
+
+### Features
+
+* Add 3.1 feature support. ([f7bc644](https://github.com/gaima8-org/fork-terraform-github-repository/commit/f7bc644d5f58091910c1a33f1840fce2fdf26c19))
+* add allow_auto_merge and bump minimum supported  provider version to v4.19.2 ([8c8d61b](https://github.com/gaima8-org/fork-terraform-github-repository/commit/8c8d61b1ae1174f816a9e4b1b5eb0ab06ea55b03))
+* add github pages block to repositories ([1f98adf](https://github.com/gaima8-org/fork-terraform-github-repository/commit/1f98adf5adb09f5f37c919fb331497c7871c937f))
+* add support for configuring default squash and merge commit title and messages ([#3](https://github.com/gaima8-org/fork-terraform-github-repository/issues/3)) ([ee13dab](https://github.com/gaima8-org/fork-terraform-github-repository/commit/ee13dab6c4023c0d23f3f6d16d2e4e80a9f6b214))
+* add support for encrypted secrets ([7945749](https://github.com/gaima8-org/fork-terraform-github-repository/commit/7945749a1f4994a28f5a2caa5459c157850c9edb))
+* add support for encrypted secrets ([cb49cec](https://github.com/gaima8-org/fork-terraform-github-repository/commit/cb49cec471f34a084c440aeda0df2e13029851a1))
+* add support for github_branches ([7e0400f](https://github.com/gaima8-org/fork-terraform-github-repository/commit/7e0400f6a9b70ce099f04e95b089ec3f930d7542))
+* Add support for provider 5.x ([f94103f](https://github.com/gaima8-org/fork-terraform-github-repository/commit/f94103f086b2d9619bbf1462f2277bfd9faf2994))
+* Add support for provider 5.x ([773846a](https://github.com/gaima8-org/fork-terraform-github-repository/commit/773846a89b92771bbb50c987b763e35b3c78e8c1))
+* Add support for terraform v0.14.x ([0b86db8](https://github.com/gaima8-org/fork-terraform-github-repository/commit/0b86db8af7667d20b660aa59b897e1304221f50a))
+* Add support for terraform v0.14.x ([c7c9b11](https://github.com/gaima8-org/fork-terraform-github-repository/commit/c7c9b11724332597a20d9cd8f57e31a805e2acb2))
+* add support for terraform v0.15 ([8e4aff4](https://github.com/gaima8-org/fork-terraform-github-repository/commit/8e4aff4519ea8ca50474df8de6e218954c4edab8))
+* add support for terraform v0.15 ([225e582](https://github.com/gaima8-org/fork-terraform-github-repository/commit/225e582516ebf9747f7d71df10d77d40bc60d469))
+* add support for terraform v1.0 ([812001f](https://github.com/gaima8-org/fork-terraform-github-repository/commit/812001f1e3c21d8bc883e1afba4f984b0ef6000e))
+* add support for the github_app_installation_repository resource ([6b6fb1e](https://github.com/gaima8-org/fork-terraform-github-repository/commit/6b6fb1e20d79a7ef2a829ea1ac8c8ff7b79f466d))
+* Add support for v4 using v3 compatible branch protections ([d342afc](https://github.com/gaima8-org/fork-terraform-github-repository/commit/d342afcdd47116138db9cd496692b5896b2c26c5))
+* add terradoc ([32c1e63](https://github.com/gaima8-org/fork-terraform-github-repository/commit/32c1e63555965c46bb2bf1dffefb7334f7402ce2))
+* add terradoc ([fae03ce](https://github.com/gaima8-org/fork-terraform-github-repository/commit/fae03ce54bbe714a96fdfc06a5dee10f830ef243))
+* add v4 branch protections ([d17416d](https://github.com/gaima8-org/fork-terraform-github-repository/commit/d17416d499d863b82f86d5818bb30921859d77f9))
+* Add visibility parameter and deprecate private parameter ([461d873](https://github.com/gaima8-org/fork-terraform-github-repository/commit/461d8735a862aafb44fa707c1ad21a848c99cb47))
+* **boostsecurityio:** Github pages, web_commit_signoff_required, and terraform provider 6.x fixing pages ([#5](https://github.com/gaima8-org/fork-terraform-github-repository/issues/5)) ([44ac511](https://github.com/gaima8-org/fork-terraform-github-repository/commit/44ac51180a26023091ff975225f341e51a9cdaaa))
+* **cutlery42:** Various updates ([#7](https://github.com/gaima8-org/fork-terraform-github-repository/issues/7)) ([035f478](https://github.com/gaima8-org/fork-terraform-github-repository/commit/035f4788abc91fbc0a81d3cb6bb7480fb1d137d1))
+* Drop projects ([#9](https://github.com/gaima8-org/fork-terraform-github-repository/issues/9)) ([13c8f36](https://github.com/gaima8-org/fork-terraform-github-repository/commit/13c8f3630682f4718a4d9385335aae775235b306))
+* Only support latest versions of Terraform and Official GitHub Terraform Provider ([bd02a29](https://github.com/gaima8-org/fork-terraform-github-repository/commit/bd02a29748403e952f8e890c6e84b89a72073466))
+* Remove support for unsecure providers versions ([3c508a4](https://github.com/gaima8-org/fork-terraform-github-repository/commit/3c508a4d53aad749d478a2f3b1018324caa87544))
+* Run tests with terraform 0.14.x ([fc9d73f](https://github.com/gaima8-org/fork-terraform-github-repository/commit/fc9d73ff02962af35dc9f4797c1ed87719f526f5))
+* upgrade pre-commit hooks to v0.2.3 ([42615b7](https://github.com/gaima8-org/fork-terraform-github-repository/commit/42615b7cd978cefcb9b6e16d4fa154a93f4ceb58))
+* Use 4.5 feature to directly assign teams via slug ([4c18823](https://github.com/gaima8-org/fork-terraform-github-repository/commit/4c18823d613d3d3c17148f0b475f0a5f134493bb))
+* use github_branch_default resource to set default branch ([914d08a](https://github.com/gaima8-org/fork-terraform-github-repository/commit/914d08ae0b6faf03831aa65ffb3fc7871bf444e6))
+* use official GitHub provider ([409a88e](https://github.com/gaima8-org/fork-terraform-github-repository/commit/409a88e85a753e550229fdd7024c265e2857ba62))
+* use official GitHub provider ([fed1500](https://github.com/gaima8-org/fork-terraform-github-repository/commit/fed1500357f17ee1d1cdbbb55670617f86326b99))
+
+
+### Bug Fixes
+
+* add allow_auto_merge to resource ([b899f32](https://github.com/gaima8-org/fork-terraform-github-repository/commit/b899f32dbfd69fe15fde38fdb4139fe16360c277))
+* allow for underscore in GitHub team slugs ([f1bfc4a](https://github.com/gaima8-org/fork-terraform-github-repository/commit/f1bfc4a2076e9dc903580d44c18a53ec1f0a0d51))
+* always set correct value for vulnerability_alerts to avoid drifts ([f936748](https://github.com/gaima8-org/fork-terraform-github-repository/commit/f936748609db7f602bbd4dd30588e281d367054d))
+* change repository link after repository relocated back to github ([a19e962](https://github.com/gaima8-org/fork-terraform-github-repository/commit/a19e962711307581b02bc2879f5c275456d538d5))
+* changelog ([a643209](https://github.com/gaima8-org/fork-terraform-github-repository/commit/a643209cb3f0190e05d838097dae5ca1b0187f9d))
+* changelog ([0037dba](https://github.com/gaima8-org/fork-terraform-github-repository/commit/0037dbab3c98a776048587a833706e885bbac641))
+* fix wrong default value ([e9ea3f1](https://github.com/gaima8-org/fork-terraform-github-repository/commit/e9ea3f178ce5de34d7deb95bc8080b8d1e8bae95))
+* fix wrong variable default ([7b65595](https://github.com/gaima8-org/fork-terraform-github-repository/commit/7b65595ac1db887b867509980bf91aafeea0773f))
+* handling multiple branch protections with dependencies to teams ([fc0c278](https://github.com/gaima8-org/fork-terraform-github-repository/commit/fc0c278fee50e30e1cfdc31f3bffbff3c48488d2))
+* handling multiple branch protections with dependencies to teams ([3316814](https://github.com/gaima8-org/fork-terraform-github-repository/commit/331681461de9deb097602bc11f239c85d01353ef))
+* improve wording in docs ([5d0c0b3](https://github.com/gaima8-org/fork-terraform-github-repository/commit/5d0c0b3ce955c9b84793c00955f48a3afcb71831))
+* mark webhooks output as sensitive ([8ab19b6](https://github.com/gaima8-org/fork-terraform-github-repository/commit/8ab19b658d155840af71466259124fdb487acd30))
+* mask broken versions ([e87878b](https://github.com/gaima8-org/fork-terraform-github-repository/commit/e87878ba491a459247d5bcfd08583608adffedfe))
+* provider version requirements ([deee1cb](https://github.com/gaima8-org/fork-terraform-github-repository/commit/deee1cb9d1eb69618e69d5007dd9c21263030bfc))
+* remove doubled up brackets ([2d7f37e](https://github.com/gaima8-org/fork-terraform-github-repository/commit/2d7f37e90b599224e26918f0cb7223aae2315a22))
+* remove projects test as disabled in test org ([9a4693a](https://github.com/gaima8-org/fork-terraform-github-repository/commit/9a4693a85802738bebd04b181798274e4352a68d))
+* remove support for string list in branches variable ([ae84490](https://github.com/gaima8-org/fork-terraform-github-repository/commit/ae84490de9112e63f978e508e406f990111a64c7))
+* Remove uneeded tests that actually only test provider and github api but not module ([d80a14e](https://github.com/gaima8-org/fork-terraform-github-repository/commit/d80a14e9dc8b6f3727fc0c356231e5ae6de74f3a))
+* revert defaults to what they were previously ([1ba8870](https://github.com/gaima8-org/fork-terraform-github-repository/commit/1ba887006f10ec1942161136520baacd916a4393))
+* review comments ([2969be6](https://github.com/gaima8-org/fork-terraform-github-repository/commit/2969be6feb91e25c76ee8ab475e8bb874d1ebd44))
+* use name instead of slug to make the example working again ([b7d71b8](https://github.com/gaima8-org/fork-terraform-github-repository/commit/b7d71b80014802b79780b0af09f28069bf1c3dea))
+* Validate 'pages' is defined correctly. ([#8](https://github.com/gaima8-org/fork-terraform-github-repository/issues/8)) ([7a87fc2](https://github.com/gaima8-org/fork-terraform-github-repository/commit/7a87fc24e4b44a7cffcc00ee0c25e6d57781e1f7))
+* var.app_installations should be of type set(string) instead of set(number) ([5a2dad9](https://github.com/gaima8-org/fork-terraform-github-repository/commit/5a2dad9cb4d36907f969db975e8c7cdb9c65e087))
+
+
+### Code Refactoring
+
+* allow computed values in v4 branch protections ([31c2492](https://github.com/gaima8-org/fork-terraform-github-repository/commit/31c249296176b08b59f607b2fc15557bb502312e))
+
 ## [Unreleased]
 
 ## [0.19.1]
