@@ -131,7 +131,7 @@ See [variables.tf] and [examples/] for details and use-cases.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_github"></a> [github](#provider\_github) | 6.7.5 |
+| <a name="provider_github"></a> [github](#provider\_github) | 6.8.3 |
 
 ## Modules
 
