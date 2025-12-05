@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.20.0](https://github.com/gaima8-org/fork-terraform-github-repository/compare/v0.19.2...v0.20.0) (2025-12-05)
+
+
+### Features
+
+* Drop projects ([#9](https://github.com/gaima8-org/fork-terraform-github-repository/issues/9)) ([3230c8d](https://github.com/gaima8-org/fork-terraform-github-repository/commit/3230c8d267962af41a97fa8e0bf5f6ae924d68d3))
+
+
+### Bug Fixes
+
+* Validate 'pages' is defined correctly. ([#8](https://github.com/gaima8-org/fork-terraform-github-repository/issues/8)) ([1bda60d](https://github.com/gaima8-org/fork-terraform-github-repository/commit/1bda60deedfa5ff8e13a86db96d536deb7c5586e))
+
 ## [Unreleased]
 
 ## [0.19.1]
