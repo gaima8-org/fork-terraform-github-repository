@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0](https://github.com/gaima8-org/fork-terraform-github-repository/compare/v0.20.0...v1.0.0) (2025-12-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* **projects:** remove deprecated GitHub Projects support
+
+### Miscellaneous Chores
+
+* **projects:** remove deprecated GitHub Projects support ([2d017a7](https://github.com/gaima8-org/fork-terraform-github-repository/commit/2d017a78a917c89254b8226403eb9e151be7e818))
+
 ## [0.20.0](https://github.com/gaima8-org/fork-terraform-github-repository/compare/v0.19.2...v0.20.0) (2025-12-05)
 
 
